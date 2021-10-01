@@ -1,0 +1,33 @@
+.alert {
+    width: 100%;
+      display: none;
+      padding: 20px;
+    ;
+      background-color: #ed9b9b;
+      color: white;
+      border-radius: 0;
+      font-size: 12px;
+    }
+  
+  .view{
+    width: 95%;
+    min-width: 100%;
+    position: fixed;
+    top: 75px;
+      display: block;
+  }
+    
+    .closebtn {
+      margin-left: 15px;
+      color: white;
+      font-weight: bold;
+      float: right;
+      font-size: 22px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    .closebtn:hover {
+      color: black;
+    }

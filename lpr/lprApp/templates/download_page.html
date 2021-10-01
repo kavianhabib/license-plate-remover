@@ -1,0 +1,17 @@
+{% extends "base.html"%}
+
+
+{% block title %}
+Download Files
+{% endblock title %}
+
+{% block content %}
+<h2>DOWNLOADING FILES</h2>
+
+<div style = "width: 100%; margin-top: 40%;">
+    {% for img in images %}
+        <a href = "{{img.upload.url}}" download> image </a>
+    {% endfor %}
+
+</div>
+{% endblock content %}

@@ -1,0 +1,3 @@
+[console_scripts]
+yolo = yolo.script:cli
+
